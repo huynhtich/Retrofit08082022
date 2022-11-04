@@ -63,4 +63,14 @@ public class Demo1DTO {
         this.logo = logo;
     }
 
+    @Override
+    public String toString() {
+        return "Demo1DTO{" +
+                "monHoc='" + monHoc + '\'' +
+                ", noiHoc='" + noiHoc + '\'' +
+                ", website='" + website + '\'' +
+                ", fanPage='" + fanPage + '\'' +
+                ", logo='" + logo + '\'' +
+                '}';
+    }
 }
